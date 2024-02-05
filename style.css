@@ -1,5 +1,7 @@
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(155, 155, 163);
+  display:flex;
+  justify-content:center;
 }
 
 .container{
@@ -18,4 +20,10 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+button{
+  width:100px;
+  border-radius:25px;
+  background-color:rgb(17, 255, 17);
+  margin-bottom:2px;
 }
