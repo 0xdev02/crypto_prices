@@ -1,1 +1,3 @@
-# crypto_prices
+Crypto Prices
+starting with BNB Price
+API- Dexscreener public API
