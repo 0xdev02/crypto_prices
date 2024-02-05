@@ -22,9 +22,5 @@ function updateData() {
 }
 updateData();
 
-// Update every 5 seconds
-setInterval(updatePrice, 5000);
-setInterval(updateData, 5000);
-
-// Refresh on button click (optional)
+// Refresh on button click 
 refreshButton.addEventListener('click', updateData);
