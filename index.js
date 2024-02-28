@@ -4,7 +4,7 @@ const pricechangeElement = document.getElementById('pricechange');
 const refreshButton = document.getElementById('refreshbutton')
 
 function updateData() {
-    fetch('https://api.dexscreener.com/latest/dex/pairs/bsc/0x36696169C63e42cd08ce11f5deeBbCeBae652050')
+    fetch('https://api.dexscreener.com/latest/dex/pairs/bsc/0xd0e925A1c22e30A363283D79eBF5a901cF928b95')
         .then(response => response.json())
         .then(data => {
             const priceNative = data.pairs[0].priceNative;
