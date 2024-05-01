@@ -7,11 +7,11 @@ function updateData() {
     fetch('https://api.dexscreener.com/latest/dex/pairs/ethereum/0x76366D95c2016446247296Ea50c8D06D0585ae00')
         .then(response => response.json())
         .then(data => {
-            const priceNative = data.pairs[0].priceNative;
+            const priceNative = data.pairs[0].priceUsd;
             const priceChange = data.pairs[0].priceChange.h24;
 
 
-            priceElement.textContent = priceNative;  // Update the HTML element
+            priceElement.textContent = priceUsd;  // Update the HTML element
 
             pricechangeElement.textContent = priceChange;  // Update the HTML element
 
