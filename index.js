@@ -4,7 +4,7 @@ const pricechangeElement = document.getElementById('pricechange');
 const refreshButton = document.getElementById('refreshbutton')
 
 function updateData() {
-    fetch('https://api.dexscreener.com/latest/dex/pairs/ethereum/0x76366D95c2016446247296Ea50c8D06D0585ae00')
+    fetch('https://api.dexscreener.com/latest/dex/pairs/base/0xc9034c3E7F58003E6ae0C8438e7c8f4598d5ACAA')
         .then(response => response.json())
         .then(data => {
             const priceUsd = data.pairs[0].priceUsd;
